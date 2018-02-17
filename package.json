@@ -1,10 +1,11 @@
 {
   "name": "csf-frapple",
   "version": "0.2.0",
-  "homepage": "http://tools.climatesmartfarming.org/tstatool",
+  "homepage": "https://cicss.github.io/csf-frapple/",
   "private": true,
   "devDependencies": {
-    "custom-react-scripts": "0.2.1"
+    "custom-react-scripts": "0.2.1",
+    "gh-pages": "^1.1.0"
   },
   "dependencies": {
     "highcharts": "^6.0.2",
@@ -26,6 +27,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
