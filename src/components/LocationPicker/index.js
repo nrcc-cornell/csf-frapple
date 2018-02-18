@@ -36,10 +36,10 @@ const KEY = 'AIzaSyDv5pQYe9kRbolVUt0o8XSXSQl4g8BHrrQ';
 const URL_google_api = `${HOST}?key=${KEY}`;
 
 @scriptLoader(
-  ['http://tools.climatesmartfarming.org/tstbtool/js/location-dialog-min.js',
+  ['http://tools.climatesmartfarming.org/tstatool/js/location-dialog-min.js',
    URL_google_api,
-   'http://tools.climatesmartfarming.org/tstbtool/js/basil.min.js',
-   'http://tools.climatesmartfarming.org/tstbtool/js/manage-local-storage.js'
+   'http://tools.climatesmartfarming.org/tstatool/js/basil.min.js',
+   'http://tools.climatesmartfarming.org/tstatool/js/manage-local-storage.js'
   ],
 )
 @inject("store") @observer
