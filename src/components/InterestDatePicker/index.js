@@ -41,7 +41,7 @@ class DatePickerButton extends Component {
                   className="date-picker-button"
                   onClick={onClick}>
                   {value}
-                  <IconGreen14 icon={calendar} class="cal-icon" onClick={onClick} />
+                  <IconGreen14 icon={calendar} className="cal-icon" onClick={onClick} />
                 </button>
             </div>
         );

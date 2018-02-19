@@ -39,7 +39,7 @@ class InfoButton extends Component {
             <div className="data-sources-label">
               <div>
                 <button className={className} onClick={this.props.store.app.updatePopupStatus}>
-                    <Icon icon={infoCircle} class="info-icon" />
+                    <Icon icon={infoCircle} className="info-icon" />
                     {this.props.button_label}
                 </button>
               </div>

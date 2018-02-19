@@ -51,7 +51,7 @@ class AppleRadioSelect extends Component {
                           disabled={!this.props.store.app.empireIsAvailable}
                           checked={this.props.store.app.getAppleVariety === 'empire'} 
                           onChange={this.props.store.app.updateAppleVariety} />
-                    <label for="empire">
+                    <label htmlFor="empire">
                       {this.labelEmpire()}
                     </label>
                   </div>
@@ -60,7 +60,7 @@ class AppleRadioSelect extends Component {
                           disabled={!this.props.store.app.mcintoshIsAvailable}
                           checked={this.props.store.app.getAppleVariety === 'mac_geneva'} 
                           onChange={this.props.store.app.updateAppleVariety} />
-                    <label for="mac_geneva">
+                    <label htmlFor="mac_geneva">
                       {this.labelMcIntosh()}
                     </label>
                   </div>
@@ -69,7 +69,7 @@ class AppleRadioSelect extends Component {
                           disabled={!this.props.store.app.reddeliciousIsAvailable}
                           checked={this.props.store.app.getAppleVariety === 'red_delicious'} 
                           onChange={this.props.store.app.updateAppleVariety} />
-                    <label for="red_delicious">
+                    <label htmlFor="red_delicious">
                       {this.labelRedDelicious()}
                     </label>
                   </div>
