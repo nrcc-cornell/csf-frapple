@@ -1,6 +1,6 @@
 {
   "name": "csf-frapple",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "homepage": "https://cicss.github.io/csf-frapple/",
   "private": true,
   "devDependencies": {
