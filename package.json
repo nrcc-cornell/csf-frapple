@@ -4,7 +4,7 @@
   "homepage": "https://cicss.github.io/csf-frapple/",
   "private": true,
   "devDependencies": {
-    "custom-react-scripts": "0.2.1",
+    "custom-react-scripts": "^0.2.2",
     "gh-pages": "^1.1.0"
   },
   "dependencies": {
